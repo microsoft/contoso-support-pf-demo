@@ -1,5 +1,4 @@
 {
-  "orientation": "Vertical",
   "nodeLayouts": {
     "inputs": {
       "x": 478.5,
@@ -14,24 +13,21 @@
     "question_embedding": {
       "x": 534,
       "y": 392,
-      "height": 75,
       "index": 0
     },
     "customer_lookup": {
-      "x": 626.0494384765625,
-      "y": 182.8203125,
-      "height": 75,
+      "x": 594.5,
+      "y": 172,
       "index": 1
     },
     "retrieve_support_documentation": {
       "x": 478.5,
       "y": 502,
-      "height": 75,
       "index": 2
     },
     "customer_prompt": {
-      "x": 150.4609375,
-      "y": 617.4166564941406,
+      "x": 73,
+      "y": 612,
       "index": 3
     },
     "llm_call": {
@@ -50,14 +46,5 @@
       "index": 6
     }
   },
-  "viewport": {
-    "transformMatrix": [
-      1,
-      0,
-      0,
-      1,
-      -1.752685546875,
-      -106.1666488647461
-    ]
-  }
+  "orientation": "Vertical"
 }

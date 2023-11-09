@@ -104,11 +104,6 @@
           "type": [
             "string"
           ]
-        },
-        "date": {
-          "type": [
-            "string"
-          ]
         }
       },
       "source": "customer_prompt.jinja2"

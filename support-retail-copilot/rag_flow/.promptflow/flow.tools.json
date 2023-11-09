@@ -1,6 +1,79 @@
 {
-  "package": {},
+  "package": {
+    "promptflow.tools.embedding.embedding": {
+      "name": "Embedding",
+      "description": "Use Open AI's embedding model to create an embedding vector representing the input text.",
+      "type": "python",
+      "module": "promptflow.tools.embedding",
+      "function": "embedding",
+      "inputs": {
+        "connection": {
+          "type": [
+            "AzureOpenAIConnection",
+            "OpenAIConnection"
+          ]
+        },
+        "deployment_name": {
+          "type": [
+            "string"
+          ],
+          "enabled_by": "connection",
+          "enabled_by_type": [
+            "AzureOpenAIConnection"
+          ],
+          "capabilities": {
+            "completion": false,
+            "chat_completion": false,
+            "embeddings": true
+          },
+          "model_list": [
+            "text-embedding-ada-002",
+            "text-search-ada-doc-001",
+            "text-search-ada-query-001"
+          ]
+        },
+        "model": {
+          "type": [
+            "string"
+          ],
+          "enabled_by": "connection",
+          "enabled_by_type": [
+            "OpenAIConnection"
+          ],
+          "enum": [
+            "text-embedding-ada-002",
+            "text-search-ada-doc-001",
+            "text-search-ada-query-001"
+          ]
+        },
+        "input": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "package": "promptflow-tools",
+      "package_version": "0.1.0b8"
+    }
+  },
   "code": {
+    "customer_lookup.py": {
+      "type": "python",
+      "inputs": {
+        "customerId": {
+          "type": [
+            "string"
+          ]
+        },
+        "conn": {
+          "type": [
+            "CustomConnection"
+          ]
+        }
+      },
+      "source": "customer_lookup.py",
+      "function": "customer_lookup"
+    },
     "retrieve_support_documentation.py": {
       "type": "python",
       "inputs": {
@@ -27,6 +100,93 @@
       },
       "source": "retrieve_support_documentation.py",
       "function": "retrieve_documentation"
+    },
+    "customer_prompt.jinja2": {
+      "type": "prompt",
+      "inputs": {
+        "customer": {
+          "type": [
+            "string"
+          ]
+        },
+        "documentation": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "customer_prompt.jinja2"
+    },
+    "llm_call.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "prompt_text": {
+          "type": [
+            "string"
+          ]
+        },
+        "history": {
+          "type": [
+            "string"
+          ]
+        },
+        "question": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "llm_call.jinja2"
+    },
+    "context.py": {
+      "type": "python",
+      "inputs": {
+        "citations": {
+          "type": [
+            "object"
+          ]
+        },
+        "customer_data": {
+          "type": [
+            "object"
+          ]
+        }
+      },
+      "source": "context.py",
+      "function": "context"
+    },
+    "rewrite_query.py": {
+      "type": "python",
+      "inputs": {
+        "query": {
+          "type": [
+            "string"
+          ]
+        },
+        "chat_history": {
+          "type": [
+            "object"
+          ]
+        },
+        "customer_data": {
+          "type": [
+            "object"
+          ]
+        },
+        "azure_open_ai_connection": {
+          "type": [
+            "AzureOpenAIConnection"
+          ]
+        },
+        "open_ai_deployment": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "description": "rewrite the query based on the chat history and customer data",
+      "source": "rewrite_query.py",
+      "function": "rewrite_query"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "answer": "I apologize for the confusion earlier, Emily. 🙇‍♀️ After checking your previous order details, I can confirm that the TrailMaster X4 Tent from OutdoorLiving has a water-resistant construction, but the waterproof rating is not specified in the product description. 🏕️🌧️ If you have any other questions or concerns, feel free to let me know! 🤗",
+  "answer": "I apologize for the confusion earlier, Emily. 🙏 According to the product description of your TrailMaster X4 Tent, it has a water-resistant construction, but the waterproof rating is not specified. 🏕️ If you have any further questions, please don't hesitate to ask! 🤗",
   "citations": [
     {
       "id": "100",
@@ -31,54 +31,6 @@
       "address": "987 Oak Ave,  Cityville USA, 56789",
       "membership": "nan",
       "orders": [
-        {
-          "id": 61,
-          "productId": 18,
-          "quantity": 1,
-          "total": 70.0,
-          "date": "6/11/2023",
-          "name": "TrekStar Hiking Sandals",
-          "unitprice": 70.0,
-          "category": "Hiking Footwear",
-          "brand": "TrekReady",
-          "description": "Meet the TrekStar Hiking Sandals from TrekReady – the ultimate trail companion for your feet. Designed for comfort and durability, these lightweight sandals are perfect for those who prefer to see the world from a hiking trail. They feature adjustable straps for a snug, secure fit, perfect for adapting to the contours of your feet. With a breathable design, your feet will stay cool and dry, escaping the discomfort of sweaty hiking boots on long summer treks. The deep tread rubber outsole ensures excellent traction on any terrain, while the cushioned footbed promises enhanced comfort with every step. For those wild and unpredictable trails, the added toe protection and shock-absorbing midsole protect your feet from rocky surprises. Ingeniously, the removable insole makes for easy cleaning and maintenance, extending the lifespan of your sandals. Available in various sizes and a handsome brown color, the versatile TrekStar Hiking Sandals are just as comfortable on a casual walk in the park as they are navigating rocky slopes. Explore more with TrekReady!"
-        },
-        {
-          "id": 31,
-          "productId": 8,
-          "quantity": 1,
-          "total": 350.0,
-          "date": "4/20/2023",
-          "name": "Alpine Explorer Tent",
-          "unitprice": 350.0,
-          "category": "Tents",
-          "brand": "AlpineGear",
-          "description": "Welcome to the joy of camping with the Alpine Explorer Tent! This robust, 8-person, 3-season marvel is from the responsible hands of the AlpineGear brand. Promising an enviable setup that is as straightforward as counting sheep, your camping experience is transformed into a breezy pastime. Looking for privacy? The detachable divider provides separate spaces at a moment's notice. Love a tent that breathes? The numerous mesh windows and adjustable vents fend off any condensation dragon trying to dampen your adventure fun. The waterproof assurance keeps you worry-free during unexpected rain dances. With a built-in gear loft to stash away your outdoor essentials, the Alpine Explorer Tent emerges as a smooth balance of privacy, comfort, and convenience. Simply put, this tent isn't just a shelter - it's your second home in the heart of nature! Whether you're a seasoned camper or a nature-loving novice, this tent makes exploring the outdoors a joyous journey."
-        },
-        {
-          "id": 21,
-          "productId": 5,
-          "quantity": 1,
-          "total": 60.0,
-          "date": "4/2/2023",
-          "name": "BaseCamp Folding Table",
-          "unitprice": 60.0,
-          "category": "Camping Tables",
-          "brand": "CampBuddy",
-          "description": "CampBuddy's BaseCamp Folding Table is an adventurer's best friend. Lightweight yet powerful, the table is a testament to fun-meets-function and will elevate any outing to new heights. Crafted from resilient, rust-resistant aluminum, the table boasts a generously sized 48 x 24 inches tabletop, perfect for meal times, games and more. The foldable design is a godsend for on-the-go explorers. Adjustable legs rise to the occasion to conquer uneven terrains and offer height versatility, while the built-in handle simplifies transportation. Additional features like non-slip feet, integrated cup holders and mesh pockets add a pinch of finesse. Quick to set up without the need for extra tools, this table is a silent yet indispensable sidekick during camping, picnics, and other outdoor events. Don't miss out on the opportunity to take your outdoor experiences to a new level with the BaseCamp Folding Table. Get yours today and embark on new adventures tomorrow!"
-        },
-        {
-          "id": 48,
-          "productId": 14,
-          "quantity": 2,
-          "total": 260.0,
-          "date": "4/16/2023",
-          "name": "MountainDream Sleeping Bag",
-          "unitprice": 130.0,
-          "category": "Sleeping Bags",
-          "brand": "MountainDream",
-          "description": "Meet the MountainDream Sleeping Bag: your new must-have companion for every outdoor adventure. Designed to handle 3-season camping with ease, it comes equipped with a premium synthetic insulation that will keep you cozy even when temperatures fall down to 15°F! Sporting a durable water-resistant nylon shell and soft breathable polyester lining, this bag doesn't sacrifice comfort for toughness. The star of the show is the contoured mummy shape that not only provides optimal heat retention but also cuts down on the weight. A smooth, snag-free YKK zipper with a unique anti-snag design allows for hassle-free operation, while the adjustable hood and full-length zipper baffle work together to ensure you stay warm all night long. Need to bring along some essentials? Not to worry! There's an interior pocket just for that. And when it's time to pack up? Just slip it into the included compression sack for easy storage and transport. Whether you're a backpacking pro or a camping novice, the MountainDream Sleeping Bag is the perfect blend of durability, warmth, and comfort that you've been looking for."
-        },
         {
           "id": 39,
           "productId": 11,
@@ -133,54 +85,6 @@
     "address": "987 Oak Ave,  Cityville USA, 56789",
     "membership": "nan",
     "orders": [
-      {
-        "id": 61,
-        "productId": 18,
-        "quantity": 1,
-        "total": 70.0,
-        "date": "6/11/2023",
-        "name": "TrekStar Hiking Sandals",
-        "unitprice": 70.0,
-        "category": "Hiking Footwear",
-        "brand": "TrekReady",
-        "description": "Meet the TrekStar Hiking Sandals from TrekReady – the ultimate trail companion for your feet. Designed for comfort and durability, these lightweight sandals are perfect for those who prefer to see the world from a hiking trail. They feature adjustable straps for a snug, secure fit, perfect for adapting to the contours of your feet. With a breathable design, your feet will stay cool and dry, escaping the discomfort of sweaty hiking boots on long summer treks. The deep tread rubber outsole ensures excellent traction on any terrain, while the cushioned footbed promises enhanced comfort with every step. For those wild and unpredictable trails, the added toe protection and shock-absorbing midsole protect your feet from rocky surprises. Ingeniously, the removable insole makes for easy cleaning and maintenance, extending the lifespan of your sandals. Available in various sizes and a handsome brown color, the versatile TrekStar Hiking Sandals are just as comfortable on a casual walk in the park as they are navigating rocky slopes. Explore more with TrekReady!"
-      },
-      {
-        "id": 31,
-        "productId": 8,
-        "quantity": 1,
-        "total": 350.0,
-        "date": "4/20/2023",
-        "name": "Alpine Explorer Tent",
-        "unitprice": 350.0,
-        "category": "Tents",
-        "brand": "AlpineGear",
-        "description": "Welcome to the joy of camping with the Alpine Explorer Tent! This robust, 8-person, 3-season marvel is from the responsible hands of the AlpineGear brand. Promising an enviable setup that is as straightforward as counting sheep, your camping experience is transformed into a breezy pastime. Looking for privacy? The detachable divider provides separate spaces at a moment's notice. Love a tent that breathes? The numerous mesh windows and adjustable vents fend off any condensation dragon trying to dampen your adventure fun. The waterproof assurance keeps you worry-free during unexpected rain dances. With a built-in gear loft to stash away your outdoor essentials, the Alpine Explorer Tent emerges as a smooth balance of privacy, comfort, and convenience. Simply put, this tent isn't just a shelter - it's your second home in the heart of nature! Whether you're a seasoned camper or a nature-loving novice, this tent makes exploring the outdoors a joyous journey."
-      },
-      {
-        "id": 21,
-        "productId": 5,
-        "quantity": 1,
-        "total": 60.0,
-        "date": "4/2/2023",
-        "name": "BaseCamp Folding Table",
-        "unitprice": 60.0,
-        "category": "Camping Tables",
-        "brand": "CampBuddy",
-        "description": "CampBuddy's BaseCamp Folding Table is an adventurer's best friend. Lightweight yet powerful, the table is a testament to fun-meets-function and will elevate any outing to new heights. Crafted from resilient, rust-resistant aluminum, the table boasts a generously sized 48 x 24 inches tabletop, perfect for meal times, games and more. The foldable design is a godsend for on-the-go explorers. Adjustable legs rise to the occasion to conquer uneven terrains and offer height versatility, while the built-in handle simplifies transportation. Additional features like non-slip feet, integrated cup holders and mesh pockets add a pinch of finesse. Quick to set up without the need for extra tools, this table is a silent yet indispensable sidekick during camping, picnics, and other outdoor events. Don't miss out on the opportunity to take your outdoor experiences to a new level with the BaseCamp Folding Table. Get yours today and embark on new adventures tomorrow!"
-      },
-      {
-        "id": 48,
-        "productId": 14,
-        "quantity": 2,
-        "total": 260.0,
-        "date": "4/16/2023",
-        "name": "MountainDream Sleeping Bag",
-        "unitprice": 130.0,
-        "category": "Sleeping Bags",
-        "brand": "MountainDream",
-        "description": "Meet the MountainDream Sleeping Bag: your new must-have companion for every outdoor adventure. Designed to handle 3-season camping with ease, it comes equipped with a premium synthetic insulation that will keep you cozy even when temperatures fall down to 15°F! Sporting a durable water-resistant nylon shell and soft breathable polyester lining, this bag doesn't sacrifice comfort for toughness. The star of the show is the contoured mummy shape that not only provides optimal heat retention but also cuts down on the weight. A smooth, snag-free YKK zipper with a unique anti-snag design allows for hassle-free operation, while the adjustable hood and full-length zipper baffle work together to ensure you stay warm all night long. Need to bring along some essentials? Not to worry! There's an interior pocket just for that. And when it's time to pack up? Just slip it into the included compression sack for easy storage and transport. Whether you're a backpacking pro or a camping novice, the MountainDream Sleeping Bag is the perfect blend of durability, warmth, and comfort that you've been looking for."
-      },
       {
         "id": 39,
         "productId": 11,
