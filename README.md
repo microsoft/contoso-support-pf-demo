@@ -1,9 +1,8 @@
-# Project
+# Contoso Support Chat Prompt Flow Demo
 
 This repository hosts the code used in the MS Ignite 2023 | Live Breakout Session | BRK203
 
 **End-to-End AI App Development: Prompt Engineering to LLMOps**
-
 
 ## Contributing
 
