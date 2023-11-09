@@ -1,0 +1,75 @@
+{
+  "nodeLayouts": {
+    "inputs": {
+      "x": 712,
+      "y": 62,
+      "index": -1
+    },
+    "outputs": {
+      "x": 712,
+      "y": 392,
+      "index": -1
+    },
+    "coherence_score": {
+      "x": 1412,
+      "y": 172,
+      "index": 0
+    },
+    "coherence_concat_scores": {
+      "x": 1412,
+      "y": 282,
+      "index": 1
+    },
+    "coherence_aggregate_variants_results": {
+      "x": 1412,
+      "y": 392,
+      "index": 2
+    },
+    "fluency_score": {
+      "x": 12,
+      "y": 172,
+      "index": 3
+    },
+    "fluency_concat_scores": {
+      "x": 12,
+      "y": 282,
+      "index": 4
+    },
+    "fluency_aggregate_variants_results": {
+      "x": 12,
+      "y": 392,
+      "index": 5
+    },
+    "groundedness_score": {
+      "x": 537,
+      "y": 172,
+      "index": 6
+    },
+    "groundedness_concat_scores": {
+      "x": 537,
+      "y": 282,
+      "index": 7
+    },
+    "groundedness_aggregate_variants_results": {
+      "x": 362,
+      "y": 392,
+      "index": 8
+    },
+    "relevance_score": {
+      "x": 887,
+      "y": 172,
+      "index": 9
+    },
+    "relevance_concat_scores": {
+      "x": 887,
+      "y": 282,
+      "index": 10
+    },
+    "relevance_aggregate_variants_results": {
+      "x": 1062,
+      "y": 392,
+      "index": 11
+    }
+  },
+  "orientation": "Vertical"
+}

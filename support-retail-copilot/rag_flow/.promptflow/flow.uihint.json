@@ -1,0 +1,51 @@
+{
+  "nodes": {
+    "question_embedding": {
+      "variant_0": {
+        "inputs": {
+          "input": []
+        }
+      }
+    },
+    "customer_lookup": {
+      "variant_0": {
+        "inputs": {}
+      }
+    },
+    "retrieve_support_documentation": {
+      "variant_0": {
+        "inputs": {}
+      }
+    },
+    "customer_prompt": {
+      "variant_0": {
+        "inputs": {}
+      }
+    },
+    "llm_call": {
+      "variant_0": {
+        "inputs": {
+          "prompt_text": [],
+          "history": []
+        }
+      }
+    },
+    "context": {
+      "variant_0": {
+        "inputs": {
+          "citations": [],
+          "customer_data": []
+        }
+      }
+    },
+    "rewrite_query": {
+      "variant_0": {
+        "inputs": {
+          "query": [],
+          "chat_history": [],
+          "customer_data": []
+        }
+      }
+    }
+  }
+}

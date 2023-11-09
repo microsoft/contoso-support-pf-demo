@@ -1,0 +1,10 @@
+{
+  "gpt_coherence": 5.0,
+  "gpt_coherence_pass_rate(%)": 100.0,
+  "gpt_groundedness": 1.0,
+  "gpt_groundedness_pass_rate(%)": 0.0,
+  "gpt_fluency": 5.0,
+  "gpt_fluency_pass_rate(%)": 100.0,
+  "gpt_relevance": 2.0,
+  "gpt_relevance_pass_rate(%)": 0.0
+}

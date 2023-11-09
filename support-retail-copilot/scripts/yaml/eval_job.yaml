@@ -1,0 +1,8 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/Run.schema.json
+flow: ../../eval_flow
+column_mapping:
+  chat_history: ${run.inputs.chat_history}
+  question: ${run.inputs.question}
+  answer: ${run.outputs.answer}
+  context: ${run.outputs.context}
+

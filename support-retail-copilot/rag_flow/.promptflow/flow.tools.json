@@ -1,0 +1,32 @@
+{
+  "package": {},
+  "code": {
+    "retrieve_support_documentation.py": {
+      "type": "python",
+      "inputs": {
+        "question": {
+          "type": [
+            "string"
+          ]
+        },
+        "index_name": {
+          "type": [
+            "string"
+          ]
+        },
+        "embedding": {
+          "type": [
+            "object"
+          ]
+        },
+        "search": {
+          "type": [
+            "CognitiveSearchConnection"
+          ]
+        }
+      },
+      "source": "retrieve_support_documentation.py",
+      "function": "retrieve_documentation"
+    }
+  }
+}
