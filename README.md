@@ -4,6 +4,71 @@ This repository hosts the code used in the [MS Ignite 2023 | Live Breakout Sessi
 
 **End-to-End AI App Development: Prompt Engineering to LLMOps**
 
+## Introduction
+
+Prompt engineering and LLMOps are pivotal in maximizing the capabilities of Language Models (LLMs) for specific business needs. This code base is from the End-to-End AI App Development: Prompt Engineering to LLMOps Microsoft Ignite session. We'll walk you through the entire process—from prototyping and experimenting to evaluating and deploying your AI-powered apps. Learn how to streamline your AI workflows and harness the full potential of Generative AI.
+
+### Prerequisites
+
+- [Azure Subscription](https://azure.microsoft.com/free/)
+- [VS Code](https://code.visualstudio.com/download)
+- [Prompt Flow Extension](https://marketplace.visualstudio.com/items?itemName=prompt-flow.prompt-flow)
+- [anaconda](https://www.anaconda.com/products/individual) or [venv](https://docs.python.org/3/library/venv.html) to manage python environments.
+
+## Getting Started
+
+### Clone the repo
+
+```bash
+git clone https://github.com/microsoft/contoso-support-pf-demo.git
+```
+
+### Open the repo in VS Code
+
+```bash
+cd contoso-support-pf-demo
+code .
+```
+
+### Install the Prompt Flow Extension
+
+- Open the VS Code Extensions tab
+- Search for "Prompt Flow"
+- Install the extension
+
+### Create a new python environment
+
+#### Using anaconda
+
+```bash
+conda create -n contoso-support-pf-demo python=3.8
+conda activate contoso-support-pf-demo
+```
+
+#### Using venv
+
+```bash
+python3 -m venv contoso-support-pf-demo
+source contoso-support-pf-demo/bin/activate
+```
+
+### Install the requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### Building a Prompt flow
+
+Now that the environment, extensions, and connections have been installed we can open up the prompt flow and take a look at what it does.
+
+- Click on the flow.dag.yaml file in the explorer. If everything was installed and the python environment was activated you should see the following and select `visual editor` to view the propmt flow:
+![Alt text](image.png)
+
+- When the flow opens you should see the following:
+![Alt text](image-1.png)
+
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
