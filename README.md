@@ -66,8 +66,10 @@ Now that the environment, extensions, and connections have been installed we can
 ![Alt text](image.png)
 
 - When the flow opens you should see the following:
+
 ![Alt text](image-1.png)
 
+- To learn how to build this flow from scratch, check out the session and Microsoft Ignite. The video will be linked here after the session is posted.
 
 ## Contributing
 
