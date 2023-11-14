@@ -1,0 +1,236 @@
+{
+  "answer": "Of course, Emily Rodriguez! How can I assist you today? 🤖👋 \n\nIf you have any questions about your previous purchases, feel free to ask! I'm here to help. 🛍️🏕️👟🧥🛌",
+  "citations": [
+    {
+      "id": "137",
+      "content": "# Information about product item_number: 9\n\nSummitClimber Backpack, price $120,\n\n\n\n41) What is the purpose of the integrated rain cover in the SummitClimber Backpack?\n   The integrated rain cover in the SummitClimber Backpack provides additional protection against rain and moisture, ensuring your belongings stay dry during your outdoor adventures.\n\n42) How do the compression straps on the SummitClimber Backpack work?\n   The compression straps on the SummitClimber Backpack help to stabilize and secure your load by cinching down the contents, improving balance and reducing stress on your back.\n\n43) Can the SummitClimber Backpack be used as carry-on luggage on a flight?\n   The SummitClimber Backpack's dimensions (28in x 16in x 10in) may exceed the carry-on size limits for some airlines. We recommend checking with your airline for their specific carry-on requirements before traveling."
+    },
+    {
+      "id": "214",
+      "content": "# Information about product item_number: 1\n\nTrailMaster X4 Tent, price $250,\n\n\n\nWhat is Not Covered:\n\nDamage caused by misuse, abuse, or improper care of the tent.\n\nNormal wear and tear or cosmetic damage that does not affect the functionality of the tent.\n\nDamage caused by extreme weather conditions, natural disasters, or acts of nature.\n\nAny modifications or alterations made to the tent by the user.\n\nClaim Process:\n\nIn the event of a warranty claim, please contact our customer support (contact details provided in the user guide) to initiate the process.\n\nProvide proof of purchase, including the date and place of purchase, along with a detailed description and supporting evidence of the issue.\n\nResolution Options:\n\nUpon receipt of the warranty claim, our customer support team will assess the issue and determine the appropriate resolution.\n\nOptions may include repair, replacement of the defective parts, or, if necessary, replacement of the entire tent.\n\nLimitations and Exclusions:"
+    },
+    {
+      "id": "158",
+      "content": "# Information about product item_number: 19\n\nAdventure Dining Table, price $90,\n\n\n\nExclusions: The warranty does not cover damages resulting from misuse, abuse, accidents, improper assembly, modifications, normal wear and tear, or any damage caused by natural disasters or extreme weather conditions.\n\nClaim Process: In the event that you encounter a manufacturing defect or faulty workmanship covered by the warranty, please follow these steps:\n\nContact our Customer Care within the warranty period and provide the necessary information about the issue.\n\nOur Customer Care team will guide you through the troubleshooting process, and if required, provide instructions for return or repair.\n\nPlease retain the original proof of purchase (receipt or order confirmation) as it will be required to validate your warranty claim.\n\nResolution: Based on the nature of the warranty claim, we will either repair or replace the defective part or the entire Adventure Dining Table at our discretion. If the exact model is no longer available, we will provide a comparable replacement."
+    },
+    {
+      "id": "241",
+      "content": "# Information about product item_number: 5\n\nBaseCamp Folding Table, price $60,\n\n\n\nDo not modify or alter the table: Do not attempt to modify or alter the BaseCamp Folding Table in any way. Modifying the table may compromise its structural integrity and could result in accidents or injury.\n\nKeep fingers and hands clear of folding mechanisms: Exercise caution when folding or unfolding the table to prevent fingers or hands from being caught in the folding mechanisms. Always keep your hands clear of the moving parts during setup and folding.\n\nDo not leave the table unattended in windy conditions: In windy conditions, secure the table properly or consider folding and storing it to prevent it from being blown away or damaged.\n\nFollowing these cautions will help ensure the safe and proper use of your BaseCamp Folding Table, prolong its lifespan, and enhance your outdoor experience.\n\nWarranty Information\n\nThank you for choosing the BaseCamp Folding Table. This section provides details about the warranty coverage for your product."
+    },
+    {
+      "id": "72",
+      "content": "# Information about product item_number: 7\n\nCozyNights Sleeping Bag, price $100,\n\n\n\n32) Can the CozyNights Sleeping Bag be zipped together with another sleeping bag to create a double sleeping bag?\n   Yes, two CozyNights Sleeping Bags can be zipped together to create a double sleeping bag, provided they have compatible zippers.\n\n33) Does the CozyNights Sleeping Bag have a draft collar or draft tube?\n   The CozyNights Sleeping Bag features a draft tube along the zipper to help prevent cold air from entering and warm air from escaping."
+    },
+    {
+      "id": "97",
+      "content": "# Information about product item_number: 3\n\nSummit Breeze Jacket, price $120,\n\n\n\n12) Are there any special care instructions for the Summit Breeze Jacket?\n   To maintain the Summit Breeze Jacket, machine wash on a gentle cycle with cold water and air dry. Do not use bleach or fabric softeners.\n\n13) Does the Summit Breeze Jacket have any reflective elements for visibility?\n   Yes, the Summit Breeze Jacket features reflective accents to help improve visibility in low-light conditions.\n\n14) Are the Summit Breeze Jacket's cuffs adjustable for a better fit?\n   Yes, the Summit Breeze Jacket has Velcro-adjustable cuffs to ensure a secure and comfortable fit.\n\n15) How breathable is the Summit Breeze Jacket during high-intensity activities?\n   The Summit Breeze Jacket is made of a breathable polyester material, which allows moisture to escape while maintaining wind and water resistance."
+    }
+  ],
+  "customer_data": {
+    "id": "6",
+    "firstName": "Emily",
+    "lastName": "Rodriguez",
+    "age": 29,
+    "email": "emilyr@example.com",
+    "phone": "555-111-2222",
+    "address": "987 Oak Ave,  Cityville USA, 56789",
+    "membership": "nan",
+    "orders": [
+      {
+        "id": 31,
+        "productId": 8,
+        "quantity": 1,
+        "total": 350.0,
+        "date": "4/20/2023",
+        "name": "Alpine Explorer Tent",
+        "unitprice": 350.0,
+        "category": "Tents",
+        "brand": "AlpineGear",
+        "description": "Welcome to the joy of camping with the Alpine Explorer Tent! This robust, 8-person, 3-season marvel is from the responsible hands of the AlpineGear brand. Promising an enviable setup that is as straightforward as counting sheep, your camping experience is transformed into a breezy pastime. Looking for privacy? The detachable divider provides separate spaces at a moment's notice. Love a tent that breathes? The numerous mesh windows and adjustable vents fend off any condensation dragon trying to dampen your adventure fun. The waterproof assurance keeps you worry-free during unexpected rain dances. With a built-in gear loft to stash away your outdoor essentials, the Alpine Explorer Tent emerges as a smooth balance of privacy, comfort, and convenience. Simply put, this tent isn't just a shelter - it's your second home in the heart of nature! Whether you're a seasoned camper or a nature-loving novice, this tent makes exploring the outdoors a joyous journey."
+      },
+      {
+        "id": 21,
+        "productId": 5,
+        "quantity": 1,
+        "total": 60.0,
+        "date": "4/2/2023",
+        "name": "BaseCamp Folding Table",
+        "unitprice": 60.0,
+        "category": "Camping Tables",
+        "brand": "CampBuddy",
+        "description": "CampBuddy's BaseCamp Folding Table is an adventurer's best friend. Lightweight yet powerful, the table is a testament to fun-meets-function and will elevate any outing to new heights. Crafted from resilient, rust-resistant aluminum, the table boasts a generously sized 48 x 24 inches tabletop, perfect for meal times, games and more. The foldable design is a godsend for on-the-go explorers. Adjustable legs rise to the occasion to conquer uneven terrains and offer height versatility, while the built-in handle simplifies transportation. Additional features like non-slip feet, integrated cup holders and mesh pockets add a pinch of finesse. Quick to set up without the need for extra tools, this table is a silent yet indispensable sidekick during camping, picnics, and other outdoor events. Don't miss out on the opportunity to take your outdoor experiences to a new level with the BaseCamp Folding Table. Get yours today and embark on new adventures tomorrow!"
+      },
+      {
+        "id": 48,
+        "productId": 14,
+        "quantity": 2,
+        "total": 260.0,
+        "date": "4/16/2023",
+        "name": "MountainDream Sleeping Bag",
+        "unitprice": 130.0,
+        "category": "Sleeping Bags",
+        "brand": "MountainDream",
+        "description": "Meet the MountainDream Sleeping Bag: your new must-have companion for every outdoor adventure. Designed to handle 3-season camping with ease, it comes equipped with a premium synthetic insulation that will keep you cozy even when temperatures fall down to 15°F! Sporting a durable water-resistant nylon shell and soft breathable polyester lining, this bag doesn't sacrifice comfort for toughness. The star of the show is the contoured mummy shape that not only provides optimal heat retention but also cuts down on the weight. A smooth, snag-free YKK zipper with a unique anti-snag design allows for hassle-free operation, while the adjustable hood and full-length zipper baffle work together to ensure you stay warm all night long. Need to bring along some essentials? Not to worry! There's an interior pocket just for that. And when it's time to pack up? Just slip it into the included compression sack for easy storage and transport. Whether you're a backpacking pro or a camping novice, the MountainDream Sleeping Bag is the perfect blend of durability, warmth, and comfort that you've been looking for."
+      },
+      {
+        "id": 39,
+        "productId": 11,
+        "quantity": 2,
+        "total": 220.0,
+        "date": "3/30/2023",
+        "name": "TrailWalker Hiking Shoes",
+        "unitprice": 110.0,
+        "category": "Hiking Footwear",
+        "brand": "TrekReady",
+        "description": "Meet the TrekReady TrailWalker Hiking Shoes, the ideal companion for all your outdoor adventures. Constructed with synthetic leather and breathable mesh, these shoes are tough as nails yet surprisingly airy. Their cushioned insoles offer fabulous comfort for long hikes, while the supportive midsoles and traction outsoles with multidirectional lugs ensure stability and excellent grip. A quick-lace system, padded collar and tongue, and reflective accents make these shoes a dream to wear. From combating rough terrain with the reinforced toe cap and heel, to keeping off trail debris with the protective mudguard, the TrailWalker Hiking Shoes have you covered. These waterproof warriors are made to endure all weather conditions. But they're not just about being rugged, they're light as a feather too, minimizing fatigue during epic hikes. Each pair can be customized for a perfect fit with removable insoles and availability in multiple sizes and widths. Navigate hikes comfortably and confidently with the TrailWalker Hiking Shoes. Adventure, here you come!"
+      },
+      {
+        "id": 3,
+        "productId": 1,
+        "quantity": 3,
+        "total": 750.0,
+        "date": "3/18/2023",
+        "name": "TrailMaster X4 Tent",
+        "unitprice": 250.0,
+        "category": "Tents",
+        "brand": "OutdoorLiving",
+        "description": "Unveiling the TrailMaster X4 Tent from OutdoorLiving, your home away from home for your next camping adventure. Crafted from durable polyester, this tent boasts a spacious interior perfect for four occupants. It ensures your dryness under drizzly skies thanks to its water-resistant construction, and the accompanying rainfly adds an extra layer of weather protection. It offers refreshing airflow and bug defence, courtesy of its mesh panels. Accessibility is not an issue with its multiple doors and interior pockets that keep small items tidy. Reflective guy lines grant better visibility at night, and the freestanding design simplifies setup and relocation. With the included carry bag, transporting this convenient abode becomes a breeze. Be it an overnight getaway or a week-long nature escapade, the TrailMaster X4 Tent provides comfort, convenience, and concord with the great outdoors. Comes with a two-year limited warranty to ensure customer satisfaction."
+      },
+      {
+        "id": 12,
+        "productId": 3,
+        "quantity": 2,
+        "total": 240.0,
+        "date": "2/20/2023",
+        "name": "Summit Breeze Jacket",
+        "unitprice": 120.0,
+        "category": "Hiking Clothing",
+        "brand": "MountainStyle",
+        "description": "Discover the joy of hiking with MountainStyle's Summit Breeze Jacket. This lightweight jacket is your perfect companion for outdoor adventures. Sporting a trail-ready, windproof design and a water-resistant fabric, it's ready to withstand any weather. The breathable polyester material and adjustable cuffs keep you comfortable, whether you're ascending a mountain or strolling through a park. And its sleek black color adds style to function. The jacket features a full-zip front closure, adjustable hood, and secure zippered pockets. Experience the comfort of its inner lining and the convenience of its packable design. Crafted for night trekkers too, the jacket has reflective accents for enhanced visibility. Rugged yet chic, the Summit Breeze Jacket is more than a hiking essential, it's the gear that inspires you to reach new heights. Choose adventure, choose the Summit Breeze Jacket."
+      }
+    ],
+    "_rid": "JjtiAM6RO-gGAAAAAAAAAA==",
+    "_self": "dbs/JjtiAA==/colls/JjtiAM6RO-g=/docs/JjtiAM6RO-gGAAAAAAAAAA==/",
+    "_etag": "\"01006efd-0000-0100-0000-653c64140000\"",
+    "_attachments": "attachments/",
+    "_ts": 1698456596
+  },
+  "context": {
+    "citations": [
+      {
+        "id": "137",
+        "content": "# Information about product item_number: 9\n\nSummitClimber Backpack, price $120,\n\n\n\n41) What is the purpose of the integrated rain cover in the SummitClimber Backpack?\n   The integrated rain cover in the SummitClimber Backpack provides additional protection against rain and moisture, ensuring your belongings stay dry during your outdoor adventures.\n\n42) How do the compression straps on the SummitClimber Backpack work?\n   The compression straps on the SummitClimber Backpack help to stabilize and secure your load by cinching down the contents, improving balance and reducing stress on your back.\n\n43) Can the SummitClimber Backpack be used as carry-on luggage on a flight?\n   The SummitClimber Backpack's dimensions (28in x 16in x 10in) may exceed the carry-on size limits for some airlines. We recommend checking with your airline for their specific carry-on requirements before traveling."
+      },
+      {
+        "id": "214",
+        "content": "# Information about product item_number: 1\n\nTrailMaster X4 Tent, price $250,\n\n\n\nWhat is Not Covered:\n\nDamage caused by misuse, abuse, or improper care of the tent.\n\nNormal wear and tear or cosmetic damage that does not affect the functionality of the tent.\n\nDamage caused by extreme weather conditions, natural disasters, or acts of nature.\n\nAny modifications or alterations made to the tent by the user.\n\nClaim Process:\n\nIn the event of a warranty claim, please contact our customer support (contact details provided in the user guide) to initiate the process.\n\nProvide proof of purchase, including the date and place of purchase, along with a detailed description and supporting evidence of the issue.\n\nResolution Options:\n\nUpon receipt of the warranty claim, our customer support team will assess the issue and determine the appropriate resolution.\n\nOptions may include repair, replacement of the defective parts, or, if necessary, replacement of the entire tent.\n\nLimitations and Exclusions:"
+      },
+      {
+        "id": "158",
+        "content": "# Information about product item_number: 19\n\nAdventure Dining Table, price $90,\n\n\n\nExclusions: The warranty does not cover damages resulting from misuse, abuse, accidents, improper assembly, modifications, normal wear and tear, or any damage caused by natural disasters or extreme weather conditions.\n\nClaim Process: In the event that you encounter a manufacturing defect or faulty workmanship covered by the warranty, please follow these steps:\n\nContact our Customer Care within the warranty period and provide the necessary information about the issue.\n\nOur Customer Care team will guide you through the troubleshooting process, and if required, provide instructions for return or repair.\n\nPlease retain the original proof of purchase (receipt or order confirmation) as it will be required to validate your warranty claim.\n\nResolution: Based on the nature of the warranty claim, we will either repair or replace the defective part or the entire Adventure Dining Table at our discretion. If the exact model is no longer available, we will provide a comparable replacement."
+      },
+      {
+        "id": "241",
+        "content": "# Information about product item_number: 5\n\nBaseCamp Folding Table, price $60,\n\n\n\nDo not modify or alter the table: Do not attempt to modify or alter the BaseCamp Folding Table in any way. Modifying the table may compromise its structural integrity and could result in accidents or injury.\n\nKeep fingers and hands clear of folding mechanisms: Exercise caution when folding or unfolding the table to prevent fingers or hands from being caught in the folding mechanisms. Always keep your hands clear of the moving parts during setup and folding.\n\nDo not leave the table unattended in windy conditions: In windy conditions, secure the table properly or consider folding and storing it to prevent it from being blown away or damaged.\n\nFollowing these cautions will help ensure the safe and proper use of your BaseCamp Folding Table, prolong its lifespan, and enhance your outdoor experience.\n\nWarranty Information\n\nThank you for choosing the BaseCamp Folding Table. This section provides details about the warranty coverage for your product."
+      },
+      {
+        "id": "72",
+        "content": "# Information about product item_number: 7\n\nCozyNights Sleeping Bag, price $100,\n\n\n\n32) Can the CozyNights Sleeping Bag be zipped together with another sleeping bag to create a double sleeping bag?\n   Yes, two CozyNights Sleeping Bags can be zipped together to create a double sleeping bag, provided they have compatible zippers.\n\n33) Does the CozyNights Sleeping Bag have a draft collar or draft tube?\n   The CozyNights Sleeping Bag features a draft tube along the zipper to help prevent cold air from entering and warm air from escaping."
+      },
+      {
+        "id": "97",
+        "content": "# Information about product item_number: 3\n\nSummit Breeze Jacket, price $120,\n\n\n\n12) Are there any special care instructions for the Summit Breeze Jacket?\n   To maintain the Summit Breeze Jacket, machine wash on a gentle cycle with cold water and air dry. Do not use bleach or fabric softeners.\n\n13) Does the Summit Breeze Jacket have any reflective elements for visibility?\n   Yes, the Summit Breeze Jacket features reflective accents to help improve visibility in low-light conditions.\n\n14) Are the Summit Breeze Jacket's cuffs adjustable for a better fit?\n   Yes, the Summit Breeze Jacket has Velcro-adjustable cuffs to ensure a secure and comfortable fit.\n\n15) How breathable is the Summit Breeze Jacket during high-intensity activities?\n   The Summit Breeze Jacket is made of a breathable polyester material, which allows moisture to escape while maintaining wind and water resistance."
+      }
+    ],
+    "customer_data": {
+      "id": "6",
+      "firstName": "Emily",
+      "lastName": "Rodriguez",
+      "age": 29,
+      "email": "emilyr@example.com",
+      "phone": "555-111-2222",
+      "address": "987 Oak Ave,  Cityville USA, 56789",
+      "membership": "nan",
+      "orders": [
+        {
+          "id": 31,
+          "productId": 8,
+          "quantity": 1,
+          "total": 350.0,
+          "date": "4/20/2023",
+          "name": "Alpine Explorer Tent",
+          "unitprice": 350.0,
+          "category": "Tents",
+          "brand": "AlpineGear",
+          "description": "Welcome to the joy of camping with the Alpine Explorer Tent! This robust, 8-person, 3-season marvel is from the responsible hands of the AlpineGear brand. Promising an enviable setup that is as straightforward as counting sheep, your camping experience is transformed into a breezy pastime. Looking for privacy? The detachable divider provides separate spaces at a moment's notice. Love a tent that breathes? The numerous mesh windows and adjustable vents fend off any condensation dragon trying to dampen your adventure fun. The waterproof assurance keeps you worry-free during unexpected rain dances. With a built-in gear loft to stash away your outdoor essentials, the Alpine Explorer Tent emerges as a smooth balance of privacy, comfort, and convenience. Simply put, this tent isn't just a shelter - it's your second home in the heart of nature! Whether you're a seasoned camper or a nature-loving novice, this tent makes exploring the outdoors a joyous journey."
+        },
+        {
+          "id": 21,
+          "productId": 5,
+          "quantity": 1,
+          "total": 60.0,
+          "date": "4/2/2023",
+          "name": "BaseCamp Folding Table",
+          "unitprice": 60.0,
+          "category": "Camping Tables",
+          "brand": "CampBuddy",
+          "description": "CampBuddy's BaseCamp Folding Table is an adventurer's best friend. Lightweight yet powerful, the table is a testament to fun-meets-function and will elevate any outing to new heights. Crafted from resilient, rust-resistant aluminum, the table boasts a generously sized 48 x 24 inches tabletop, perfect for meal times, games and more. The foldable design is a godsend for on-the-go explorers. Adjustable legs rise to the occasion to conquer uneven terrains and offer height versatility, while the built-in handle simplifies transportation. Additional features like non-slip feet, integrated cup holders and mesh pockets add a pinch of finesse. Quick to set up without the need for extra tools, this table is a silent yet indispensable sidekick during camping, picnics, and other outdoor events. Don't miss out on the opportunity to take your outdoor experiences to a new level with the BaseCamp Folding Table. Get yours today and embark on new adventures tomorrow!"
+        },
+        {
+          "id": 48,
+          "productId": 14,
+          "quantity": 2,
+          "total": 260.0,
+          "date": "4/16/2023",
+          "name": "MountainDream Sleeping Bag",
+          "unitprice": 130.0,
+          "category": "Sleeping Bags",
+          "brand": "MountainDream",
+          "description": "Meet the MountainDream Sleeping Bag: your new must-have companion for every outdoor adventure. Designed to handle 3-season camping with ease, it comes equipped with a premium synthetic insulation that will keep you cozy even when temperatures fall down to 15°F! Sporting a durable water-resistant nylon shell and soft breathable polyester lining, this bag doesn't sacrifice comfort for toughness. The star of the show is the contoured mummy shape that not only provides optimal heat retention but also cuts down on the weight. A smooth, snag-free YKK zipper with a unique anti-snag design allows for hassle-free operation, while the adjustable hood and full-length zipper baffle work together to ensure you stay warm all night long. Need to bring along some essentials? Not to worry! There's an interior pocket just for that. And when it's time to pack up? Just slip it into the included compression sack for easy storage and transport. Whether you're a backpacking pro or a camping novice, the MountainDream Sleeping Bag is the perfect blend of durability, warmth, and comfort that you've been looking for."
+        },
+        {
+          "id": 39,
+          "productId": 11,
+          "quantity": 2,
+          "total": 220.0,
+          "date": "3/30/2023",
+          "name": "TrailWalker Hiking Shoes",
+          "unitprice": 110.0,
+          "category": "Hiking Footwear",
+          "brand": "TrekReady",
+          "description": "Meet the TrekReady TrailWalker Hiking Shoes, the ideal companion for all your outdoor adventures. Constructed with synthetic leather and breathable mesh, these shoes are tough as nails yet surprisingly airy. Their cushioned insoles offer fabulous comfort for long hikes, while the supportive midsoles and traction outsoles with multidirectional lugs ensure stability and excellent grip. A quick-lace system, padded collar and tongue, and reflective accents make these shoes a dream to wear. From combating rough terrain with the reinforced toe cap and heel, to keeping off trail debris with the protective mudguard, the TrailWalker Hiking Shoes have you covered. These waterproof warriors are made to endure all weather conditions. But they're not just about being rugged, they're light as a feather too, minimizing fatigue during epic hikes. Each pair can be customized for a perfect fit with removable insoles and availability in multiple sizes and widths. Navigate hikes comfortably and confidently with the TrailWalker Hiking Shoes. Adventure, here you come!"
+        },
+        {
+          "id": 3,
+          "productId": 1,
+          "quantity": 3,
+          "total": 750.0,
+          "date": "3/18/2023",
+          "name": "TrailMaster X4 Tent",
+          "unitprice": 250.0,
+          "category": "Tents",
+          "brand": "OutdoorLiving",
+          "description": "Unveiling the TrailMaster X4 Tent from OutdoorLiving, your home away from home for your next camping adventure. Crafted from durable polyester, this tent boasts a spacious interior perfect for four occupants. It ensures your dryness under drizzly skies thanks to its water-resistant construction, and the accompanying rainfly adds an extra layer of weather protection. It offers refreshing airflow and bug defence, courtesy of its mesh panels. Accessibility is not an issue with its multiple doors and interior pockets that keep small items tidy. Reflective guy lines grant better visibility at night, and the freestanding design simplifies setup and relocation. With the included carry bag, transporting this convenient abode becomes a breeze. Be it an overnight getaway or a week-long nature escapade, the TrailMaster X4 Tent provides comfort, convenience, and concord with the great outdoors. Comes with a two-year limited warranty to ensure customer satisfaction."
+        },
+        {
+          "id": 12,
+          "productId": 3,
+          "quantity": 2,
+          "total": 240.0,
+          "date": "2/20/2023",
+          "name": "Summit Breeze Jacket",
+          "unitprice": 120.0,
+          "category": "Hiking Clothing",
+          "brand": "MountainStyle",
+          "description": "Discover the joy of hiking with MountainStyle's Summit Breeze Jacket. This lightweight jacket is your perfect companion for outdoor adventures. Sporting a trail-ready, windproof design and a water-resistant fabric, it's ready to withstand any weather. The breathable polyester material and adjustable cuffs keep you comfortable, whether you're ascending a mountain or strolling through a park. And its sleek black color adds style to function. The jacket features a full-zip front closure, adjustable hood, and secure zippered pockets. Experience the comfort of its inner lining and the convenience of its packable design. Crafted for night trekkers too, the jacket has reflective accents for enhanced visibility. Rugged yet chic, the Summit Breeze Jacket is more than a hiking essential, it's the gear that inspires you to reach new heights. Choose adventure, choose the Summit Breeze Jacket."
+        }
+      ],
+      "_rid": "JjtiAM6RO-gGAAAAAAAAAA==",
+      "_self": "dbs/JjtiAA==/colls/JjtiAM6RO-g=/docs/JjtiAM6RO-gGAAAAAAAAAA==/",
+      "_etag": "\"01006efd-0000-0100-0000-653c64140000\"",
+      "_attachments": "attachments/",
+      "_ts": 1698456596
+    }
+  },
+  "query_rewrite": "the user is requesting assistance or help with something, but the specific nature of their request is unclear."
+}
