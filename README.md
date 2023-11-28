@@ -49,8 +49,8 @@ pip install -r requirements.txt
 #### Using venv
 
 ```bash
-python3 -m venv contoso-support-pf-demo
-source contoso-support-pf-demo/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -91,7 +91,7 @@ Once everything has been setup you can run the evaluation tool to evaluate the p
 
 ```bash
 cd contoso-support-pf-demo\support-retail-copilot
-chainlit run app.py -w
+chainlit run exp/app.py -w
 ```
 ![Alt text](image-3.png)
 
