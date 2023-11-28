@@ -1,6 +1,6 @@
 import openai
 import chainlit as cl
-from exp.chat_util import PromptFlowChat
+from chat_util import PromptFlowChat
 import promptflow as pf
 import os
 import yaml, json
@@ -14,11 +14,11 @@ def start_chat():
     clear_chat_history()
     cl.user_session.set("test_case", None)
     config = dict(
-        promptflow = "./rag_flow_baseline",
-        promptflow_baseline = "./rag_flow_baseline",
-        promptflow_treatment = "./rag_flow",
-        evalflow = "./eval_flow",
-        test_set = "data/testdata.jsonl",
+        promptflow = "rag_flow_baseline",
+        promptflow_baseline = "rag_flow_baseline",
+        promptflow_treatment = "rag_flow",
+        evalflow = "eval_flow",
+        test_set = "data\\testdata.jsonl",
         customer_id = "7"
     )
     cl.user_session.set("config", config)

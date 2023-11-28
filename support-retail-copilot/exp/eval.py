@@ -1,4 +1,4 @@
-from exp.chat_util import PromptFlowChat
+from chat_util import PromptFlowChat
 import json 
 from dotenv import load_dotenv
 

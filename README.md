@@ -43,6 +43,7 @@ code .
 ```bash
 conda create -n contoso-support-pf-demo python=3.8
 conda activate contoso-support-pf-demo
+pip install -r requirements.txt
 ```
 
 #### Using venv
@@ -50,13 +51,26 @@ conda activate contoso-support-pf-demo
 ```bash
 python3 -m venv contoso-support-pf-demo
 source contoso-support-pf-demo/bin/activate
-```
-
-### Install the requirements
-
-```bash
 pip install -r requirements.txt
 ```
+
+### Create data resources to be used in the prompt flow
+
+- Azure AI Search - [Create an Azure Cognitive Search service](https://docs.microsoft.com/en-us/azure/search/search-create-service-portal)
+The Azure AI Search connection is used to do vector lookups and return the information from the Azure AI Search index. The Azure AI Search index is created from the data in the `data/product_info` folder with the `script\create_index.sh`.
+
+
+- Azure Open AI Connection - [Create an Azure Open AI Connection](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal)
+The Azure Open AI connection is used to create the endpoints for GPT-3 and GPT-4 as well as the embeddings model.
+
+- Azure Cosmos DB - [Create an Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/create-cosmosdb-resources-portal)
+The Azure Cosmos DB connection is used to store the customer data needed to lookup the customer information and return the information to be populated in the prompt.
+
+### Setup the Connections
+To run the prompt flow, the connections need to be set up. These can be setup as local connections or with the json confirguration connected to your workspace.
+
+ - To setup local connections follow the instructions [here](https://microsoft.github.io/promptflow/how-to-guides/manage-connections.html)
+ - To setup json connection follow the insturctions [here](https://microsoft.github.io/promptflow/cloud/azureai/consume-connections-from-azure-ai.html)
 
 ### Building a Prompt flow
 
@@ -69,7 +83,17 @@ Now that the environment, extensions, and connections have been installed we can
 
 ![Alt text](image-1.png)
 
-- To learn how to build this flow from scratch, check out the session and Microsoft Ignite. The video will be linked here after the session is posted.
+- To learn how to build this flow from scratch, [check out the session and Microsoft Ignite.](https://ignite.microsoft.com/sessions/16ee2bd5-7cb8-4419-95f6-3cab36dfac93?source=sessions)
+
+### Running Chainlit App Evaluation Tool
+
+Once everything has been setup you can run the evaluation tool to evaluate the prompt flow. To run the evaluation tool, run the following command in the terminal:
+
+```bash
+cd contoso-support-pf-demo\support-retail-copilot
+chainlit run app.py -w
+```
+![Alt text](image-3.png)
 
 ## Contributing
 
