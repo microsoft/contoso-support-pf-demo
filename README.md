@@ -14,6 +14,7 @@ Prompt engineering and LLMOps are pivotal in maximizing the capabilities of Lang
 - [VS Code](https://code.visualstudio.com/download)
 - [Prompt Flow Extension](https://marketplace.visualstudio.com/items?itemName=prompt-flow.prompt-flow)
 - [anaconda](https://www.anaconda.com/products/individual) or [venv](https://docs.python.org/3/library/venv.html) to manage python environments.
+- Currently this app needs to be run using WSL. To install WSL follow the instructions [here](https://docs.microsoft.com/windows/wsl/).
 
 ## Getting Started
 
@@ -90,7 +91,7 @@ Now that the environment, extensions, and connections have been installed we can
 Once everything has been setup you can run the evaluation tool to evaluate the prompt flow. To run the evaluation tool, run the following command in the terminal:
 
 ```bash
-cd contoso-support-pf-demo\support-retail-copilot
+cd contoso-support-pf-demo/support-retail-copilot
 chainlit run exp/app.py -w
 ```
 ![Alt text](image-3.png)
