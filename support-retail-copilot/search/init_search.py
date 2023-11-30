@@ -13,17 +13,22 @@ from azure.search.documents import SearchClient
 from azure.search.documents.indexes import SearchIndexClient
 from azure.search.documents.indexes.models import (
     HnswParameters,
-    HnswVectorSearchAlgorithmConfiguration,
-    PrioritizedFields,
+    HnswAlgorithmConfiguration,
+    SemanticPrioritizedFields,
     SearchableField,
     SearchField,
     SearchFieldDataType,
     SearchIndex,
+    SemanticSearch,
     SemanticConfiguration,
-    SemanticField,
-    SemanticSettings,
+    SemanticField, 
     SimpleField,
     VectorSearch,
+    VectorSearchAlgorithmKind,
+    VectorSearchAlgorithmMetric,
+    ExhaustiveKnnAlgorithmConfiguration,
+    ExhaustiveKnnParameters,
+    VectorSearchProfile
 )
 from dotenv import load_dotenv
 from langchain.document_loaders import DirectoryLoader, UnstructuredMarkdownLoader
@@ -98,43 +103,67 @@ def get_index(name: str) -> SearchIndex:
         SearchField(
             name="embedding",
             type=SearchFieldDataType.Collection(SearchFieldDataType.Single),
+            searchable=True, 
             # Size of the vector created by the text-embedding-ada-002 model.
             vector_search_dimensions=1536,
-            vector_search_configuration="default",
-        ),
+            vector_search_profile_name="myHnswProfile"
+        )
     ]
 
     # The "content" field should be prioritized for semantic ranking.
-    semantic_settings = SemanticSettings(
-        configurations=[
-            SemanticConfiguration(
+    semantic_config = SemanticConfiguration(
                 name="default",
-                prioritized_fields=PrioritizedFields(
+                prioritized_fields=SemanticPrioritizedFields(
                     title_field=None,
-                    prioritized_content_fields=[SemanticField(field_name="content")],
+                    keywords_fields=[],
+                    content_fields=[SemanticField(field_name="content")]
                 ),
             )
-        ]
-    )
+
 
     # For vector search, we want to use the HNSW (Hierarchical Navigable Small World)
     # algorithm (a type of approximate nearest neighbor search algorithm) with cosine
     # distance.
     vector_search = VectorSearch(
-        algorithm_configurations=[
-            HnswVectorSearchAlgorithmConfiguration(
-                name="default",
-                kind="hnsw",
-                parameters=HnswParameters(metric="cosine"),
+        algorithms=[
+            HnswAlgorithmConfiguration(
+                name="myHnsw",
+                kind=VectorSearchAlgorithmKind.HNSW,
+                parameters=HnswParameters(
+                    m=4,
+                    ef_construction=400,
+                    ef_search=500,
+                    metric=VectorSearchAlgorithmMetric.COSINE
+                )
+            ),
+            ExhaustiveKnnAlgorithmConfiguration(
+                name="myExhaustiveKnn",
+                kind=VectorSearchAlgorithmKind.EXHAUSTIVE_KNN,
+                parameters=ExhaustiveKnnParameters(
+                    metric=VectorSearchAlgorithmMetric.COSINE
+                )
+            )
+        ],
+        profiles=[
+            VectorSearchProfile(
+                name="myHnswProfile",
+                algorithm_configuration_name="myHnsw",
+            ),
+            VectorSearchProfile(
+                name="myExhaustiveKnnProfile",
+                algorithm_configuration_name="myExhaustiveKnn",
             )
         ]
     )
+
+    # Create the semantic settings with the configuration
+    semantic_search = SemanticSearch(configurations=[semantic_config])
 
     # Create the search index.
     index = SearchIndex(
         name=name,
         fields=fields,
-        semantic_settings=semantic_settings,
+        semantic_search=semantic_search,
         vector_search=vector_search,
     )
 

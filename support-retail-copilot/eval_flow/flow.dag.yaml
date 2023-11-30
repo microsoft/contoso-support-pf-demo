@@ -11,43 +11,32 @@ inputs:
     default: what is the temperature rating of my sleeping bag?
   context:
     type: string
-    default: 
-      customer_data: 
-      - "id": "7"
-        "firstName": "Jason"
-        "lastName": "Brown"
-        "age": 50
-        "email": "jasonbrown@example.com"
-        "phone": "555-222-3333"
-        "address": "456 Cedar Rd, Anytown USA, 12345"
-        "membership": "Base"
-        "orders": 
-        - "id": 27
-          "productId": 7
-          "quantity": 2
-          "total": 200.0
-          "date": "3/10/2023"
-          "name": "CozyNights Sleeping Bag"
-          "unitprice": 100.0
-          "category": "Sleeping Bags"
-          "brand": "CozyNights" 
-      citations:
-      - |
-        Information about product item_number: 14
-        MountainDream Sleeping Bag, price $130,
-
-        Rating: 5
-        Review: I've used the MountainDream Sleeping Bag on multiple camping trips, and it has never disappointed me. The insulation is fantastic, providing excellent warmth even in chilly weather. The fabric feels durable, and the zippers glide smoothly. The included stuff sack makes it convenient to pack and carry. Highly satisfied with my purchase!
-
-        Rating: 4
-        Review: The MountainDream Sleeping Bag is a solid choice for backpacking and camping. It's lightweight and compact, making it easy to fit into my backpack. The insulation kept me warm during cold nights, and the hood design provided extra comfort. The only downside is that it's a bit snug for taller individuals. Overall, a reliable sleeping bag for outdoor adventures.
-
-        FAQ
-
-        What is the temperature rating for the MountainDream Sleeping Bag? The MountainDream Sleeping Bag is rated for temperatures as low as 15�F (-9�C), making it suitable for 4-season use.
+    default: "{\"customer_data\":[{\"id\":\"7\",\"firstName\":\"Jason\",\"lastName\
+      \":\"Brown\",\"age\":50,\"email\":\"jasonbrown@example.com\",\"phone\":\"\
+      555-222-3333\",\"address\":\"456 Cedar Rd, Anytown USA,
+      12345\",\"membership\":\"Base\",\"orders\":[{\"id\":27,\"productId\":7,\"\
+      quantity\":2,\"total\":200,\"date\":\"3/10/2023\",\"name\":\"CozyNights
+      Sleeping Bag\",\"unitprice\":100,\"category\":\"Sleeping
+      Bags\",\"brand\":\"CozyNights\"}]}],\"citations\":[\"Information about
+      product item_number: 14\\nMountainDream Sleeping Bag, price
+      $130,\\n\\nRating: 5\\nReview: I've used the MountainDream Sleeping Bag on
+      multiple camping trips, and it has never disappointed me. The insulation
+      is fantastic, providing excellent warmth even in chilly weather. The
+      fabric feels durable, and the zippers glide smoothly. The included stuff
+      sack makes it convenient to pack and carry. Highly satisfied with my
+      purchase!\\n\\nRating: 4\\nReview: The MountainDream Sleeping Bag is a
+      solid choice for backpacking and camping. It's lightweight and compact,
+      making it easy to fit into my backpack. The insulation kept me warm during
+      cold nights, and the hood design provided extra comfort. The only downside
+      is that it's a bit snug for taller individuals. Overall, a reliable
+      sleeping bag for outdoor adventures.\\n\\nFAQ\\n\\nWhat is the temperature
+      rating for the MountainDream Sleeping Bag? The MountainDream Sleeping Bag
+      is rated for temperatures as low as 15�F (-9�C), making it suitable for
+      4-season use.\\n\"]}"
   answer:
     type: string
-    default: The CozyNights Sleeping Bag is rated for temperatures as low as 15F (-9C), making it suitable for 4-season use.
+    default: The CozyNights Sleeping Bag is rated for temperatures as low as 15F
+      (-9C), making it suitable for 4-season use.
 outputs:
   gpt_coherence:
     type: object

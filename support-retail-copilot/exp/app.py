@@ -18,7 +18,7 @@ def start_chat():
         promptflow_baseline = "rag_flow_baseline",
         promptflow_treatment = "rag_flow",
         evalflow = "eval_flow",
-        test_set = "data\\testdata.jsonl",
+        test_set = "data/testdata.jsonl",
         customer_id = "7"
     )
     cl.user_session.set("config", config)
