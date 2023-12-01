@@ -83,6 +83,7 @@ def load_and_split_documents() -> list[dict]:
         doc_dict = {
             "id": str(i),
             "content": header + doc.page_content,
+            "title": header,
             "sourcefile": os.path.basename(doc.metadata["source"]),
         }
         final_docs.append(doc_dict)
@@ -99,6 +100,7 @@ def get_index(name: str) -> SearchIndex:
     fields = [
         SimpleField(name="id", type=SearchFieldDataType.String, key=True),
         SimpleField(name="sourcefile", type=SearchFieldDataType.String),
+        SearchableField(name="title", type=SearchFieldDataType.String),
         SearchableField(name="content", type=SearchFieldDataType.String),
         SearchField(
             name="embedding",
@@ -170,11 +172,18 @@ def get_index(name: str) -> SearchIndex:
     return index
 
 
+
 def initialize(search_index_client: SearchIndexClient):
     """
     Initializes an Azure Cognitive Search index with our custom data, using vector
     search.
     """
+    aoai_client = openai.AzureOpenAI(
+        api_key = AZURE_OPENAI_API_KEY,  
+        api_version = AZURE_OPENAI_API_VERSION,
+        azure_endpoint = AZURE_OPENAI_API_BASE 
+    )
+
     # Load our data.
     docs = load_and_split_documents()
 
@@ -191,13 +200,13 @@ def initialize(search_index_client: SearchIndexClient):
         start_idx = i * batch_size
         end_idx = min(start_idx + batch_size, len(docs))
         batch_docs = docs[start_idx:end_idx]
-        embeddings = openai.Embedding.create(
-            engine=AZURE_OPENAI_EMBEDDING_DEPLOYMENT,
+        embeddings = aoai_client.embeddings.create(
+            model=AZURE_OPENAI_EMBEDDING_DEPLOYMENT,
             input=[doc["content"] for doc in batch_docs]
-        )["data"]
+        ).data
 
         for j, doc in enumerate(batch_docs):
-            doc["embedding"] = embeddings[j]["embedding"]
+            doc["embedding"] = embeddings[j].embedding
 
     # Create an Azure Cognitive Search index.
     print(f"creating index {AZURE_SEARCH_INDEX_NAME}")
