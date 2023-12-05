@@ -16,5 +16,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'Evaluation Tests Passed with following results:\n```yaml\ngpt_coherence: 3.82\ngpt_fluency: 3.8\ngpt_groundedness: 4.24\ngpt_relevance: 3.98\n```'
+              body: 'Evaluation Tests Passed with following results:\n```yaml\ngpt_coherence: 3.82\ngpt_fluency: 3.8\ngpt_groundedness: 4.24\ngpt_relevance: 3.98\n```\nsee [here for run details in AI Studio](http://microsoft.com)'
             })
